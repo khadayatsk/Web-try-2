@@ -1,0 +1,100 @@
+body{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("nebula.jpg");
+  background-position: center; 
+  background-size: cover; 
+}
+.zero{
+width: 541px;
+    height: 350px;
+    padding: 20px 43px;
+    margin: 130px 334px;
+    background-color: rgba(44, 39, 39, 0.438);
+    font-size: 20px;
+}
+.left1{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top:0px;
+}
+.left1 img{
+  margin: 9px 3px;
+  width: 60px;
+  border-radius: 50%;
+}
+h2{
+ font-family: 'Balsamiq Sans', cursive;
+  text-shadow: 2px 2px 5px red;
+}
+#one{
+ font-family: 'Pacifico', cursive;
+}
+#two{
+  font-family: 'Pacifico', cursive;
+}
+#three a{
+font-size: 22px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    border: 2px white solid;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 32px 36px;
+}
+#three a:hover{
+  background-color: red;
+}
+header{
+  margin: -16px 0px;
+  height: 76px;
+  background-color: rgba(43, 36, 36, 0.589);
+}
+.three{
+  display: block;
+  width:50%;
+  margin: 5px auto;
+}
+.threenav li{
+  display: inline-block;
+  font-size: 20px;
+  margin: 22px 2px;
+}
+ .threenav li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 34px;
+ }
+ .threenav li a:hover {
+   color: red;
+ }
+.right2{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+ .btn1{
+  font-family: 'Balsamiq Sans', cursive;
+ padding: 7px 14px;
+ margin: 14px -4px;
+ background-color: rgba(165, 20, 201, 0.418);
+ border: 2px black solid;
+ font-size: 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white
+}
+.btn1:hover{
+  background-color: grey;
+}

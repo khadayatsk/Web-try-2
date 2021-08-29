@@ -1,0 +1,91 @@
+body{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("nebula.jpg");
+  background-position: center; 
+  background-size: cover; 
+}
+.left5{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top:0px;
+}
+.left5 img{
+  margin: 9px 3px;
+  width: 60px;
+  border-radius: 50%;
+}
+header{
+  margin: -16px 0px;
+  height: 76px;
+  background-color: rgba(43, 36, 36, 0.589);
+}
+.five{
+  display: block;
+  width:50%;
+  margin: 5px auto;
+}
+.fivenav li{
+  display: inline-block;
+  font-size: 20px;
+  margin: 22px 2px;
+}
+ .fivenav li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 34px;
+ }
+ .fivenav li a:hover {
+   color: red;
+ }
+.right5{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+ .btn5{
+  font-family: 'Balsamiq Sans', cursive;
+ padding: 7px 14px;
+ margin: 14px -4px;
+ background-color: rgba(165, 20, 201, 0.418);
+ border: 2px black solid;
+ font-size: 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btn5 a{
+    text-decoration: none;
+    color: white
+}
+.btn5:hover{
+  background-color: grey;
+}
+.container2{
+  display: inline-block;
+  position: absolute;
+  left: 553px;
+  top: 374px;
+}
+
+.icon2{
+  display: inline-block;
+  position: absolute;
+  top: 346px;
+  left: 374px;
+}
+.icon2 a img{
+    border-radius: 20px;
+    background-color: #b14c1b52;
+    width: 63px;
+    height: 60px;
+    border: 2px gray solid;
+    padding: 6px 15px;
+}
+
+.icon2 a:hover{
+  background-color: rgba(0, 0, 0, 0.979);
+  border-radius: 50%;
+}

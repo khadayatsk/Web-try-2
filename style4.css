@@ -1,0 +1,74 @@
+body{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("nebula.jpg");
+  background-position: center; 
+  background-size: cover; 
+}
+.left4{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top:0px;
+}
+.left4 img{
+  margin: 9px 3px;
+  width: 60px;
+  border-radius: 50%;
+}
+header{
+  margin: -16px 0px;
+  height: 76px;
+  background-color: rgba(43, 36, 36, 0.589);
+}
+.four{
+  display: block;
+  width:50%;
+  margin: 5px auto;
+}
+.fournav li{
+  display: inline-block;
+  font-size: 20px;
+  margin: 22px 2px;
+}
+ .fournav li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 34px;
+ }
+ .fournav li a:hover {
+   color: red;
+ }
+.right4{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+ .btn4{
+  font-family: 'Balsamiq Sans', cursive;
+ padding: 7px 14px;
+ margin: 14px -4px;
+ background-color: rgba(165, 20, 201, 0.418);
+ border: 2px black solid;
+ font-size: 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btn4 a{
+    text-decoration: none;
+    color: white
+}
+.btn4:hover{
+  background-color: grey;
+}
+
+.para1{
+    height: 200px;
+    width: 440px;
+    padding: 94px 98px;
+    margin: 169px 310px;
+    font-size: 37px;
+    background-color: #19181873; 
+}

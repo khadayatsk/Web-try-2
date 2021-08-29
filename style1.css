@@ -1,0 +1,124 @@
+body{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("nebula.jpg");
+  background-position: center; 
+  background-size: cover;
+  font-family: 'Balsamiq Sans', cursive;
+}
+header{
+  margin: -6px 0px;
+  height: 76px;
+  background-color: rgba(43, 36, 36, 0.589);
+  }
+
+.left{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top:0px;
+}
+.left img{
+  margin: 9px 3px;
+  width: 60px;
+  border-radius: 50%;
+}
+.mid{
+  display: block;
+  width:50%;
+  margin: 5px auto;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  font-size: 20px;
+}
+ .navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 34px;
+ }
+ .navbar li a:hover {
+   color: red;
+ } 
+.right{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+.btn{
+  font-family: 'Balsamiq Sans', cursive;
+ padding: 7px 14px;
+ margin: 14px -4px;
+ background-color:rgba(165, 20, 201, 0.418);
+ border: 2px black solid;
+ font-size: 20px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white
+}
+.btn:hover{
+  background-color: grey;
+}
+ 
+.container{
+  
+  font-family: 'Pacifico', cursive;
+  color: white;
+  width: 447px;
+  padding: 194px 260px;
+  margin: 10px 150px;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px red;
+} 
+.container1{
+    width: 500px;
+    margin: -202px 490px;
+    font-size: 20px;
+}
+
+.container2{
+  display: inline-block;
+  position: absolute;
+  left: 553px;
+  top: 374px;
+}
+.container a{
+  width:25px;
+  height:25px;
+}
+.container2 a:hover{
+  background-color: rgba(46, 42, 42, 0.493);
+  border-radius: 50%;
+}
+.container2 a img {
+ filter: invert(100%);
+  border: 1px gray solid;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+} 
+footer{
+    font-family: fangsong;
+    height: 32px;
+    margin: 447px 0px;
+    padding: 7px 0px;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+
+
+
+
+ 
